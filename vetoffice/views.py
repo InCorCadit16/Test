@@ -7,7 +7,7 @@ from django.urls import reverse_lazy
 from django.contrib.auth.forms import UserCreationForm
 
 from .models import Owner, Patient, Appointment
-from .forms import OwnerCreateForm, OwnerUpdateForm, PatientCreateForm, PatientUpdateForm, AppointmentCreateForm, AppointmentUpdateForm
+from djangovet.vetoffice.forms import OwnerCreateForm, OwnerUpdateForm, PatientCreateForm, PatientUpdateForm, AppointmentCreateForm, AppointmentUpdateForm
 
 # Create your views here.
 @login_required
